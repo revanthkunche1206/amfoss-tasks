@@ -1,3 +1,3 @@
-Installing Linux
+**Installing Linux**
 
-I have sucessfully Installed ubuntu linux, No issues faced during the Installing.
+I have successfully Installed ubuntu linux, No issues faced during the Installing.
