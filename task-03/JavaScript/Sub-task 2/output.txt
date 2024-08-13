@@ -1,0 +1,2 @@
+This is the content in the input file of javascript
+
