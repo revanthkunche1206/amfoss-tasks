@@ -176,6 +176,17 @@ function displayProducts(products) {
     image.alt = product.title;
     productElement.appendChild(image);
 
+    const titleinfo=document.createElement("div");
+    titleinfo.className="info";
+
+    const productname=document.createElement("p");
+    productname.className="name";
+    productname.innerHTML=product.category;
+
+    titleinfo.appendChild(productname);
+
+    productElement.appendChild(titleinfo);
+
     const actualPriceValue = product.price + 100;
 
     const heart = document.createElement("i");
