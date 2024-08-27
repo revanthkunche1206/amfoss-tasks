@@ -1,0 +1,7 @@
+Code which was found in the Terminal-Chaos-GodSuite repository Third commit
+
+code:aHR0cHM6Ly9naXRodWIuY29tL2FuZ3JlemljaGF0dGVyYm94L1RvLXRoZS1zdGFycy1hbmQtcmVhbG1zLXVuc2Vlbg==
+
+By decoding this code using the machine found in the chambers east of the Eolian caves in the 9th path leading to the 4th chamber we will get the 
+
+link:https://github.com/angrezichatterbox/To-the-stars-and-realms-unseen
