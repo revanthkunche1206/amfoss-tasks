@@ -1,0 +1,27 @@
+Key to spell production
+A --> Z    a --> z
+B --> A    b --> a
+C --> B    c --> b
+D --> C    d --> c
+E --> D    e --> d
+F --> E    f --> e
+G --> F    g --> f
+H --> G    h --> g
+I --> H    i --> h
+J --> I    j --> i
+K --> J    k --> j
+L --> K    l --> k
+M --> L    m --> l
+N --> M    n --> m
+O --> N    o --> n
+P --> O    p --> o
+Q --> P    q --> p
+R --> Q    r --> q
+S --> R    s --> r
+T --> S    t --> s
+U --> T    u --> t
+V --> U    v --> u
+W --> V    w --> v
+X --> W    x --> w
+Y --> X    y --> x
+Z --> Y    z --> y

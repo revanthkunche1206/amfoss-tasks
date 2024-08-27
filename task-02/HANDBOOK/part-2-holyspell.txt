@@ -1,0 +1,11 @@
+Filenames which contain the words "holy" and "good" 
+1)Moonbloom.txt
+2)Mistveil.txt
+
+By joining the filenames as described - MoonbloomMistveil
+
+By replacing each letter in this combination with the letter that comes before it -- LnnmaknnlLhrsudhk
+
+By removing vowels form the code -- LnnmknnlLhrsdhk
+
+
