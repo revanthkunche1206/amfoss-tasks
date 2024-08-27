@@ -1,7 +1,6 @@
 .container-main {
     display: flex;
     height: auto;
-    
 }
 
 .left{
@@ -66,8 +65,6 @@ input[type="text"] {
 
 
 .navbar-list{
-    
-    
     float: left;
     width: 40%;
     height: 5%;
@@ -75,44 +72,89 @@ input[type="text"] {
     display:flex;
     justify-content: space-between;
     margin:2% 0% 0% 3%;
-
 }
 .navbar-link{
     font-family:'Times New Roman', Times, serif;
     letter-spacing: 2px;
     font-size: 20px;
     color:#110b0b;
-
 }
 .navbar-link:hover{
     color:hsl(38, 61%, 73%);
 }
-
-
-
 .product {
+    position: relative;
     float:left;
     background-color: #f8f6f693;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    /* overflow: hidden; */
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
     width:22%;
     height:18%;
     text-align: center;
     margin: 10px;
     padding: 15px;
-    transition: transform 0.3s;
+    overflow: hidden;
+    transition: transform 0.5s ease-in-out;
   }
   .product:hover {
-    transform: translateY(-5px);
+    transform: translateX(15%);
   }
   
   .product img {
+    position: relative;
     width: 100%;
     height: 150px;
     margin-bottom: 15px;
     border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.5s ease-in-out;
   }
+  .product:hover img {
+    transform: translateX(-5%) rotate(45deg);
+    transition: transform 0.5s ease-in-out;
+  }
+
+  .product .info {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 15%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    transform: translateX(-100%);
+    transition: transform 0.5s ease-in-out;
+    z-index: 2;
+}
+
+.product:hover .info {
+    transform: translateX(0);
+}
+
+.product .info .name {
+    color: white;
+    font-size: 18px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    text-transform: uppercase;
+    writing-mode: vertical-rl; 
+    transition: color 0.3s;
+    opacity: 0;
+    transform: translateX(-100%);
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+}
+
+.product:hover .info .name {
+    opacity: 1; 
+    transform: translateX(0);
+}
 
   .actualprice{
     margin: 0%;
