@@ -11,7 +11,7 @@ I then used the **Find** command to locate the parchment.txt file's path, and I 
 ![Screenshot from 2024-08-28 11-11-00](https://github.com/user-attachments/assets/c963450b-76d9-43e5-ab51-167088aa8d2a)
 
 
-#Part-2
+# Part-2
 I've never been so furious before. First I have changed my bracnh to the **Light Realm** using git checkout
 
 
