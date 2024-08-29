@@ -41,6 +41,41 @@ While I am searching the filenames I have went through a directory and discovere
 
 # Part-3 
 
+For this part initially I have changed my branch to the **Dark Realm 1**. And used the holly light magic to disperse it and uncover the secrets which was found in the part-2 and got the code of **chest1** and **chest2**
+
+
+![Screenshot from 2024-08-08 16-54-55](https://github.com/user-attachments/assets/1b277a98-91f1-4c89-913b-62e57681dd3b)
+
+![Screenshot from 2024-08-29 13-52-54](https://github.com/user-attachments/assets/e62d38f9-47d1-4ecf-8093-00797c3e7c2c)
+
+![Screenshot from 2024-08-08 17-00-36](https://github.com/user-attachments/assets/f5ee4df9-ccbe-4c90-a567-fedef09d70e8)
+
+![Screenshot from 2024-08-29 13-55-40](https://github.com/user-attachments/assets/b06b7587-7b89-496e-8bb2-8f98f1993897)
+
+![Screenshot from 2024-08-29 13-59-18](https://github.com/user-attachments/assets/0dc8a049-85fd-4361-a280-5131bde71e56)
+
+
+# Part-4
+
+I combined all four of the codes in the correct order to decode the codes I had from the previous three parts, and I was able to determine that I needed to use a **base64** decoder after seeing the hint. I have a link to the github repository after I have decoded the code.
+
+# Part-5
+Using the github link I was provided in the previous section, I opened the repository and saw that I needed to review its commits. I discovered the machine's coordinates and code when I looked at the commits in the third commit.After decoding the code I discovered, I obtained a link to another repository. There is a Python file in that repository. When I run that Python file, I receive the final message.
+
+![Screenshot from 2024-08-10 10-15-08](https://github.com/user-attachments/assets/b556e3a8-bb78-4ba7-ab2c-83f3f0f9d990)
+
+![Screenshot from 2024-08-10 10-59-53](https://github.com/user-attachments/assets/282749a2-c4f3-4a28-97b7-df1a1b414090)
+
+
+
+
+
+
+
+
+
+
+
 
 
 
